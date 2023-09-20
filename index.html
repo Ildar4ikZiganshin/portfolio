@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Load fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- Link to an external CSS file -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>My Portfolio</title>
+</head>
+<body>
+  <!-- Header Section -->
+    <header class="header">
+        <div class="logo-wrapper">
+          <!-- Portfolio logo -->
+            <a href="/">
+                <img class="logo" src="img/my-logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="nav-wrapper">
+          <!-- Navigation links -->
+            <nav class="nav">
+                <a href="#section-1">About Me</a>
+                <a href="#section-2">Skills</a>
+                <a href="#section-3">My Projects</a>
+                <a href="#section-4">Contacts</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <!-- About Me Section -->
+        <section id="section-1"></section>
+        <div class="info-wrapper">
+          <!-- Personal information -->
+            <div class="info">
+                <h1 class="title">Ildar Ziganshin</h1>
+                <h2 class="subtitle">Frontend Developer</h2>
+                <p class="description">Frontend developer looking for ideas and projects for himself and others</p>
+            </div>
+            <!-- Avatar image -->
+            <div class="avatarka">
+                <img class="avatar" src="https://sun9-48.userapi.com/impg/MIyAlIVb8wz_-4ks2K8M9GELTfU0eNDr6W_lhA/ot-TtTLs638.jpg?size=827x1063&quality=95&sign=bc614fe8e8e2afb93e1880fc886afea1&type=album" alt="Avatar">
+            </div>
+        </div>
+        <div class="story-wrapper">
+          <!-- Personal story -->
+            <img class="logo-1" src="img/logo-1.png" alt="Logo-1">
+            <p class="story">A few years ago, I became interested in developing websites and interfaces. Since then, I have been steadily improving my skills. Now I am developing websites and web applications to order or for myself.</p>
+        </div>
+        <!-- Skills Section -->
+        <section id="section-2"></section>
+        <div class="skills-wrapper">
+            <h3 class="heading-1">My Skills</h3>
+            <!-- List of skills -->
+            <ul class="skills-list">
+                <li class="skills-list-item skill-html">
+                    <a class="skill-1" href="/">
+                        <img class="skills-list-img" src="img/icon html.png"><br>
+                        HTML5
+                    </a>
+                </li>
+                <li class="skills-list-item skill-css">
+                    <a class="skill-2" href="/">
+                        <img class="skills-list-img" src="img/icon css.png"><br>
+                        CSS3
+                    </a>
+                </li>
+                <li class="skills-list-item skill-js">
+                    <a class="skill-3" href="/">
+                        <img class="skills-list-img" src="img/icon js.png"><br>
+                        JavaScript
+                    </a>
+                </li>
+                <li class="skills-list-item skill-scss">
+                    <a class="skill-4" href="/">
+                        <img class="skills-list-img" src="img/icon scss.png"><br>
+                        SCSS
+                    </a>
+                </li>
+                <li class="skills-list-item skill-git">
+                    <a class="skill-5" href="/">
+                        <img class="skills-list-img" src="img/icon git.png"><br>
+                        Git
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Projects Section -->
+        <section id="section-3"></section>
+        <div class="works-wrapper">
+            <h3 class="heading-1">My Works</h3>
+            <!-- List of projects -->
+            <ul class="works-list">
+                <li class="works-list-item">
+                    <h3 class="heading-2">Car Shop Website</h3>
+                    <img src="img/project-1.jpg" alt="image" class="projects__img">
+                    <p class="works-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="works-btn" href="https://ildar4ikziganshin.github.io/MyProjects/" target="_blank">See more →</a>
+                </li>
+                <li class="works-list-item">
+                    <h3 class="heading-2">Interior Designer</h3>
+                    <img src="img/project-2.jpg" alt="image" class="projects__img">
+                    <p class="works-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="works-btn" href="https://ildar4ikziganshin.github.io/maryevinterior/" target="_blank">See more →</a>
+                </li>
+                <li class="works-list-item">
+                    <h3 class="heading-2">Coming soon...</h3>
+                    <img src="img/project-3.jpg" alt="image" class="projects__img">
+                    <p class="works-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="works-btn" href="file:///Users/ildarzigansin/Desktop/html/index.html">See more →</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Contact Section -->
+        <div class="contact__mail">
+          <h2 class="heading-1">
+            Send Me A Message
+          </h2>
+          <!-- Contact form -->
+          <form action="" class="contact__form" id="contact-form">
+
+            <div class="contact__group">
+              <div class="contact__box">
+                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                <label for="name" class="contact__label">First Name</label>
+              </div>
+
+              <div class="contact__box">
+                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                <label for="email" class="contact__label">Email Address</label>
+              </div>
+
+              <div class="contact__box">
+                <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="contact__button button">
+              Send Message
+            </button>
+          </form>
+        </div>
+    </main>
+    <footer class="footer">
+      <!-- Footer Section -->
+        <section id="section-4"></section>
+        <div offer-wrapper>
+            <img class="logo" src="img/my-logo.png" alt="Logo">
+            <p class="offer">If you liked my work and you need me, I'm ready to talk to you.</p>
+        </div>
+        <!-- Contact links -->
+        <div class="contacts-wrapper">
+            <table>
+                <th class="heading-2">Contacts</th>
+                <tr>
+                    <td>
+                        <a class="contacts-link" href="mailto:i-zigga@mail.ru" target="_blank">
+                            <img class="contacts-image" src="img/MAIL.svg">
+                            i-zigga@mail.ru
+                        </a>
+                    </td>
+                    <td>
+                        <a class="contacts-link" href="https://github.com/Ildar4ikZiganshin" target="_blank">
+                            <img class="contacts-image" src="img/GITHUB.svg">
+                            Ildar Ziganshin
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="contacts-link" href="https://instagram.com/___tatarchonok___" target="_blank">
+                            <img class="contacts-image" src="img/instagram.svg">
+                            Ildar Ziganshin
+                        </a>
+                    </td>
+                    <td>
+                        <a class="contacts-link" href="tel:+14374368804" target="_blank">
+                            <img class="contacts-image" src="img/phone.svg">
+                            +1(437)436-88-04
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
