@@ -90,6 +90,7 @@ body{
     border-radius: 100%;
     margin-left: 30px;
     margin-top: 50px;
+    object-fit: cover;
 }
 .story-wrapper{
     display: flex;
